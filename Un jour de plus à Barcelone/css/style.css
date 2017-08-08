@@ -1,0 +1,206 @@
+* {
+	margin:0;	
+	padding:0;
+}
+
+.logo {
+	background-color: transparent;
+	position:absolute;
+	font-family: 'Tangerine', sans-serif;
+	color:white;
+	top:10%;
+	left:8%;
+	font-size: 2em;
+	z-index: 999;
+}
+
+header {
+	background-color: white;
+	position:fixed;
+	width: 8%;
+	height: 100%;
+	z-index:100;
+	right:0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding-top: 4%;
+}
+
+header p:nth-child(1){
+	font-size: 0.8em;
+	letter-spacing: 0.2em;
+}
+
+header p:nth-child(2){
+	font-weight: bold
+	letter-spacing: 0.2em;
+	font-size: 2em;
+}
+
+#wrap {
+	width:92%;
+	box-sizing: border-box;
+	background-color: white;
+	float:left;
+}
+
+#main-img {
+	max-height: 850px;
+	width: 100%;
+	opacity: 0.9;
+}
+
+.reg {
+	font-weight: normal; 
+}
+
+.phrase {
+	width:100%;
+	box-sizing: border-box;
+	background-color: white;
+	float:left;
+	margin:0% 0%;
+	padding:2% 8%;
+	clear:both;
+}
+
+.phrase cite {
+	font-size: 5em;
+	font-family: 'Tangerine', sans-serif;
+	letter-spacing: 0.1em; 	
+	line-height: 1.2em;
+}
+
+
+ #pedrera {
+ 	filter: brightness(0.9);
+ }
+
+ #pedrera:hover {
+ 	filter: brightness(0.2);
+ }
+
+ .articulo1 {
+  	background-color: white;
+ 	width:50%;
+ 	float:left;
+ 	box-sizing: border-box;
+ 	
+ 	overflow: hidden;
+ 	max-height: 30%;
+
+ }
+
+ .articulo1 img {
+ 	clear:both;
+ 	width:100%
+ 	margin:auto;
+ 	max-height: 480px;
+ }
+
+  .articulo2 img {
+ 	clear:both;
+ 	width:100%
+ 	margin:auto;
+ 	max-height: 480px;
+ }
+
+ .articulo2 {
+ 	background-color:white;
+ 	width:50%;
+ 	float:right;
+ 	box-sizing: border-box;
+ }
+
+#campnouart {
+	background-color: #000;
+	z-index:3;
+}
+ #campnou {
+ 	filter: brightness(0.9);
+ 	width: 100%;
+ }
+
+footer {
+	width:100%;
+	float:left;
+	clear:both;
+	background:#000;
+	padding: 0;
+	margin:0;
+	z-index: 1;
+}
+
+#container {
+	overflow: hidden;
+}
+
+#logo2 {
+	width: 30%;
+	margin-left: 8%;
+	margin-top: 4%;
+	box-sizing: border-box;
+	float:left;
+}
+
+#logo2 h3 {
+	color:gray;
+	font-family: 'Tangerine';
+	font-size:3em;
+	
+}
+
+#acerca-de {
+	width: 25%;
+	margin-top: 5%;
+	box-sizing: border-box;
+	float:left;
+}
+
+#acerca-de h3 p {
+	padding:2%;
+}
+#acerca-de h3{
+	color:white;
+	font-family: 'Raleway';
+	font-size:1.5em;
+	margin-bottom: 3%;
+	
+}
+
+#acerca-de p {
+	color:white;
+	font-family: 'Raleway';
+	line-height: 1.5em;
+	letter-spacing: 0.1em;
+	font-size:0.8em;
+	margin-bottom: 5%;
+}
+
+#contacto {
+	width: 30%;
+	margin-top: 5%;
+	margin-left: 5%;
+	box-sizing: border-box;
+	float:left;
+
+}
+
+#contacto h3 {
+	color:white;
+	font-family: 'Raleway';
+	font-size:1.5em;
+	margin-bottom: 3%;
+	
+}
+
+#contacto p {
+	color:white;
+	font-family: 'Raleway';
+	line-height: 1.5em;
+	letter-spacing: 0.1em;
+	font-size:0.8em;
+	margin-bottom: 5%;
+}
+

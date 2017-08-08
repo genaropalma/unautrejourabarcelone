@@ -1,0 +1,327 @@
+/* Elementos Generales */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+
+body {
+	background:#f9fafd;
+	font-family:Arial, Helvetica, Sans-serif;
+}
+
+a {text-decoration:none; color:gray;}
+a:hover {font-weight: bold}
+
+#wrap {
+	width:960px;
+	margin:auto;
+	clear:both;
+}
+
+/* HEADER */
+
+header {
+	background:white;
+	border-bottom:0.2px solid rgba(0,0,0,0.1);
+	width:100%;
+	float:left;
+	margin-bottom: 20px;
+}
+
+#subheader {
+	margin:auto;
+	width:100%;
+	}
+
+#logotipo {
+	float:left;
+	width:60%;
+	padding: 20px 0px;
+	margin-left: 5%;
+	}
+
+#logotipo a {
+	font-family: 'Dancing Script', Sans-serif;
+	font-size: 30px;
+}
+
+/* Menu */
+
+header #subheader nav {
+	float:left;
+	width: 30%;
+	padding: 30px 00px;
+	text-align: right;
+}
+
+header #subheader nav ul li {
+	display:inline;
+	font-family: 'Sintony', sans-serif;
+}
+
+header #subheader nav ul li a {
+	font-size:18px;
+	padding:10px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+header #subheader nav ul li a:hover {
+	color:#FFF;
+	background:#1798af;
+
+}
+
+/* MAIN */
+
+#main {
+	width:100%
+	margin:20px 0px 0px 0px;
+	clear:both;
+	
+	}
+
+/* SLIDESHOW */
+
+ #slides {
+      display:none;
+    }
+
+
+#slides{
+ width: 960px;
+ height: 240px;
+ float: left;
+ border: solid 3px ;
+}
+
+.slidesjs-next.slidesjs-navigation {
+ visibility:hidden;
+ color: black;
+ padding: 5px;
+}
+
+.slidesjs-previous.slidesjs-navigation {
+ visibility: hidden;
+ color: white;
+ padding: 5px;
+}
+
+.slidesjs-pagination {
+ margin: -16px auto;
+ width: 100px;
+}
+
+.slidesjs-pagination li {
+ float: left;
+ margin: 10px 5px;
+ list-style: none;
+ background-color: rgba(0,0,0,0.7);
+ border: 0.2px solid rgba(0,0,0,0.2);
+ border-radius: 6px;
+}
+
+.slidesjs-pagination li a {
+ display: block;
+ width: 12px;
+ height: 0px;
+ padding-top: 12px;
+ float: left;
+ overflow: hidden;
+ border-radius: 6px;
+}
+
+.slidesjs-pagination li .active {
+ background-color: #1798af;
+}
+
+
+
+/* BIENVENIDOS */
+
+#bienvenidos {
+	width:920px;
+	float:left;
+	background: #1798af;
+	padding:20px;
+	border: solid 0.2px rgba(225, 225, 225, 0.2);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 50px 0px;
+}
+
+#bienvenidos article h3 {
+	font-family: 'Sintony', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color:white;
+}
+
+#bienvenidos article ul {
+	font-family: 'Sintony', sans-serif;
+	color:white;
+	padding:0px 20px;
+}
+
+#contenido {
+	width:700px;
+	float:left;
+}
+
+#contenido article {
+	float:left;
+	margin:20px 0px;
+	background:white;
+	border-radius: 5px;
+	padding:10px 20px;
+	border: 0.2px solid rgba(0,0,0,0.2);
+}
+
+#contenido article .titulo {
+	font-size:20px;
+	font-family: 'Sintony', sans-serif;
+	color:grey;
+}
+
+#contenido article .fecha {
+	font-size: 14px;
+	color:#1798af;
+	margin-bottom:5px;
+}
+
+#contenido article .thumb {
+	width:220px;
+	height:150px;
+	float:left;
+	margin:0px 10px 10px 0px;
+}
+
+#contenido article > p {
+	color: black;
+	font-family: 'Sintony', sans-serif;
+	font-size: 13.8px;
+	text-align: justify;
+}
+
+/* SIDEBAR */
+
+aside {
+	width:220px;
+	float:left;
+	margin-left:18px;
+	margin-top:20px;
+	background:#1798af;
+	border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	border: 0.2px solid rgba(0,0,0,0.2);
+	padding:10px 10px 0px 10px;
+}
+
+aside .widget {
+	margin-bottom: 10px;
+	float:left;
+}
+
+aside .widget > h3 {
+	text-align: center;
+	color: white;
+	font-family: 'Sintony', sans-serif;
+	padding-bottom:5px;
+	}
+aside .widget img {
+	width:100%;
+	margin-bottom:10px;
+}
+
+aside .widget ul {
+	list-style: none;
+}
+
+aside .widget ul li a {
+	font-family: 'Sintony', sans-serif;
+	color:white;
+}
+
+/* FOOTER */
+
+footer {
+	margin-top:20px;
+	width:100%;
+	float:left;
+	clear:both;
+	background:#4a4a4a;
+}
+
+footer section {
+	width:46%;
+	float:left;
+	padding:20px;
+}
+
+footer #acerca-de {
+	font-family: Helvetica, Sans-serif;
+	color: white;
+	text-align:justify;
+	line-height: 20px;
+}
+
+footer #acerca-de h3 {
+	padding:10px 0px;
+}
+
+footer #redes-s > div {    /* DICE QUE TODOS LOS DIV VAN A TENER LA SGTE PROPIEDAD*/
+	width:280px;
+	height:60px;
+	float:left;
+	opacity: 0.7;
+	}
+
+footer #redes-s > div a {
+	width:280px;
+	height:60px;
+	display:inline-block;
+
+}
+
+footer #redes-s .facebook{
+	background:url(../imagenes/facebook.png)
+}
+
+footer #redes-s .blogger{
+	background:url(../imagenes/blogger.png)
+}
+
+footer #redes-s .youtube{
+	background:url(../imagenes/youtube.png)
+}
+
+footer #redes-s .twitter{
+	background:url(../imagenes/twitter.png)
+}
+
+footer #redes-s > div:hover {
+	opacity: 1;
+}
+#copyright {
+	clear: both;
+	width:100%;
+	margin:auto;
+	background:#4a4a4a;
+	font-size: 10px;
+}
+
+#copyright {
+	float:left;
+	width:100%;
+	padding: 10px 0px; 
+	text-align: center;
+	color:white;
+
+}
+
+

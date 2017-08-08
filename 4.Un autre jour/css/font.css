@@ -1,0 +1,21 @@
+@font-face {
+	font-family:dancingscript;
+	src:url(../fuentes/DancingScript-Regular.ttf);
+}
+
+@font-face {
+	font-family:dancingscript-bold;
+	src:url(../fuentes/DancingScript-Bold.ttf);
+
+}
+
+@font-face {
+	font-family:sintony;
+	src:url(../fuentes/Sintony-Regular.ttf);
+
+}
+
+@font-face {
+	font-family:sintony-bold;
+	src:url(../fuentes/Sintony-Bold.ttf);
+}
